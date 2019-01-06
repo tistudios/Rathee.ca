@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Pragmatic Developer - Rathee
+title: The Pragmatic Dev
 email: sam@rathee.ca
-description: >- #safa
-So you're a new developer and want to know how to code? Wrong answer. The question itself is misleading. If you're new and want to just make apps wihtout dealing with mountains of code read on. Just my thoughts. 
-baseurl: "" # the subpath of your site if applicable, e.g. /blog
+description: >- # this means to ignore newlines until "baseurl:"
+  So you're a new developer and want to know how to code? Wrong answer. The question itself is misleading. If you're new and want to just make apps wihtout dealing with mountains of code read on. Just my thoughts.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://www.rathee.ca" # the base hostname & protocol for your site, e.g. https://example.com
 
 # Permalink format (/blog/ is ignored for pages)
@@ -28,7 +28,7 @@ permalink: /blog/:title
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: false
+netlifycms: true
 
 # set to 'true' to enable Google Analytics tracking code in production builds
 analytics: true
